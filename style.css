@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body{
+    background-image: linear-gradient(#f6b254,#1aedab);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(#ED5565,#DA4453);
+    height: 400px;
+    width: 700px;
+    border: 2px;
+    box-shadow: 5px 5px 5px 5px #1c1d1d;
+    margin-top: 50px;
+    border-radius: 40px;
+    background-color: #ffffff;
+}
+h1{
+    font-size: 70px;
+    color: blue;
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 420px;
+    font-size: 80px;
+    color: #3ddcef;
+    font-weight:bolder;
+}
+.increase{
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(to right,#00d2ff 0%,#3a7bd5 51%,#00d2ff 100%);
+    border: 1px solid black;
+    border-radius: 50%;
+    outline: none;
+}
+.decrease{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(to right,#00d2ff 0%,#3a7bd5 51%,#00d2ff 100%);
+    border: 1px solid black;
+    font-size: 40px;
+    border-radius: 50%;
+    outline: none;
+}
+.reset{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(to right,#00d2ff 0%,#3a7bd5 51%,#00d2ff 100%);
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 50%;
+    outline: none;
+}
+@media(max-width:800px){
+    .counter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 200px;
+        width: 300px;
+        border: 1px;
+        background-image: linear-gradient(#ED5565,#DA4453);
+    box-shadow: 5px 5px 5px 5px #1c1d1d;
+        border-radius: 40px;
+        background-color: #ffffff;
+    }
+    h1{
+        font-size: 40px;
+        color: blue;
+    }
+    .number{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 210px;
+        font-size: 60px;
+        color: #3ddcef;
+        font-weight:bolder;
+    }
+    .increase{
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+        color: white;
+        font-weight: bolder;
+        background-image: linear-gradient(to right,#00d2ff 0%,#3a7bd5 51%,#00d2ff 100%);
+        border: 1px solid black;
+        border-radius: 50%;
+        outline: none;
+        margin-bottom: 20px;
+    }
+    .decrease{
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+        color: white;
+        font-weight: bolder;
+        background-image: linear-gradient(to right,#00d2ff 0%,#3a7bd5 51%,#00d2ff 100%);
+        border: 1px solid black;
+        border-radius: 50%;
+        outline: none;
+        margin-bottom: 20px;
+    }
+    .reset{
+        height: 60px;
+        width: 60px;
+        font-size: 15px;
+        color: white;
+        font-weight: bolder;
+        background-image: linear-gradient(to right,#00d2ff 0%,#3a7bd5 51%,#00d2ff 100%);
+        border: 1px solid black;
+        border-radius: 50%;
+        outline: none;
+        margin-bottom: 20px
+    }
+}
